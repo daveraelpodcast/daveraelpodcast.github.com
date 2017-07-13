@@ -46,16 +46,12 @@ redirect_from:
 			<itunes:email>{{ site.email}}</itunes:email>
 		</itunes:owner>
     <itunes:explicit>yes</itunes:explicit>
-		<itunes:image href="{{ site.url }}{{ site.squareLogo}}" />
-    {% for category in site.podcast.categories %}
-      <itunes:category text="{{ category[0] }}">
-        {% for subcategory in category[1] %}
-          <itunes:category text="{{ subcategory }}" />
-        {% endfor %}
-      </itunes:category>
-    {% endfor %}
+    <itunes:image href="{{ site.url }}{{ site.squareLogo-itunes}}" />
+    <itunes:category text="Society &amp; Culture">
+      <itunes:category text="Philosophy" />
+    </itunes:category>
     <media:credit role="author">{{ site.author.name }}</media:credit>
-    <media:rating>nonadult</media:rating>
+    <media:rating>r</media:rating>
 		{% for post in site.posts %}
 			<item>
 				<title>{{ post.title }}</title>
