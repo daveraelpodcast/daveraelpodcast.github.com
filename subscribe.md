@@ -11,4 +11,4 @@ group-sort: 200
 
 * {:.list-group-item} [Good Intentions Podcast Full Feed](/rss.xml)
 * {:.list-group-item} [iTunes](https://itunes.apple.com/us/podcast/the-good-intentions-podcast/id1259006323)
-* {:.list-group-item} Coming soon: Google Play
+* {:.list-group-item} [Google Play](https://play.google.com/music/listen?u=0#/ps/Ifxp56zosir5bgejxvpepy3ewqq)
