@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Good Intentions
-tagline: Believing in the fundamental goodness of humanity
+tagline: Smashing the othering of anyone with a different opinon.
 ---
 {% include JB/setup %}
 
